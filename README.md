@@ -15,15 +15,6 @@ This project showcases my skills, projects, and experience, and provides a simpl
 
 ---
 
-## 📂 Project Structure
-
-/src
-├── app/ # Main app pages
-├── components/ # Reusable UI components
-├── hooks/ # Custom hooks (e.g., toast notifications)
-├── lib/ # Utility functions
-└── public/ # Static assets (images, icons, etc.)
----
 
 ## 🛠️ Tech Stack
 
@@ -45,15 +36,15 @@ This project showcases my skills, projects, and experience, and provides a simpl
 
 2. Install dependencies:
  ```bash
-npm install
+   npm install
 ```
 
 3. Run the development server:
  ```bash
-npm run dev
+   npm run dev
 ```
 
 4. Open your browser at:
  ```bash
-http://localhost:3000
+   http://localhost:3000
 ```
