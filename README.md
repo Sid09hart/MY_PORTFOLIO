@@ -14,7 +14,8 @@ This project showcases my skills, projects, and experience, and provides a simpl
 - ⚡ Built with **React + Tailwind CSS**  
 
 ---
-
+🌐 Live Demo
+   [Portfolio]{https://strong-puffpuff-649870.netlify.app/}
 
 ## 🛠️ Tech Stack
 
