@@ -4,6 +4,17 @@ import React from 'react'
 const projects = [
     {
         id: 1,
+        title: " ResQMart - Full-Stack MERN Marketplace",
+        description: "Developed a full-stack e-commerce platform to reduce local food waste, connecting sellers with buyers for expiring goods and managing real-time inventory.",
+        image: "/projects/ResQMart.png",
+        tags: ["MERN Stack", "Geolocation", "Cloudinary", "Leaflet.js", "Jwt"],
+        projectUrl: "https://res-q-mart.vercel.app/"
+    },
+   
+   
+   
+    {
+        id: 2,
         title: "SENSAI : AI-Powered Career Coach",
         description: "Developed a full-stack AI-powered career guidance platform that provides personalizedcareer recommendations, AI-generated resumes/cover letters, industry insights, and mock interview simulations.Integrated Gemini API with Next.js and Node.js to deliver real-time, data-driven guidance,secure authentication, and PDF generation for a seamless user experience",
         image: "/projects/CareerCoach.png",
@@ -12,7 +23,7 @@ const projects = [
     },
 
      {
-        id: 2,
+        id: 3,
         title: "FixMyRoad : Road Issue Reporting App",
         description: " Developed a full-stack civic issue reporting tool with real-time pothole validation and imageuploads. Integrated Cloudinary for optimized image storage and retrieval, improving load times by40%.- Authenticated users with JWT, validated reports via geolocation, and enabled real-timeadmin moderation.",
         image: "/projects/FixMyRoad.png",
@@ -21,7 +32,7 @@ const projects = [
     },
 
      {
-        id: 3,
+        id: 4,
         title: "BusyCallHandeling : Call Collision Detection App",
         description: " Developed a full-stack civic issue reporting tool with real-time pothole validation and imageuploads.- Integrated Cloudinary for optimized image storage and retrieval, improving load times by40%.- Authenticated users with JWT, validated reports via geolocation, and enabled real-timeadmin moderation.",
         image: "/projects/BusyCallCollision.png",
