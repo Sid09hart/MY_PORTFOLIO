@@ -2,10 +2,20 @@ import { ArrowRight, ExternalLink } from 'lucide-react'
 import React from 'react'
 
 const projects = [
-    {
+   
+   {
         id: 1,
+        title: "Meme-o-Saurus: Semantic Image Search Engine",
+        description: " Engineered a semantic search engine enabling image retrieval via natural language queries instead of file names. Integrated OpenAI’s CLIP model to generate vector embeddings for context-awarematching without manual tagging. Implemented MongoDB vector search to efficiently query image datasets based on visualmeaning and relevance.",
+        image: "/projects/Memeengine.png",
+        tags: ["MERN Stack", "Geolocation", "Cloudinary", "Leaflet.js", "Jwt"],
+        projectUrl: "https://deja-vu-sigma.vercel.app/"
+    },
+   
+    {
+        id: 2,
         title: " ResQMart - Full-Stack MERN Marketplace",
-        description: "Developed a full-stack e-commerce platform to reduce local food waste, connecting sellers with buyers for expiring goods and managing real-time inventory.",
+        description: "Built a full-stack marketplace connecting local sellers and buyers to reduce food waste. Integrated Gemini AI to generate dynamic product descriptions and AI-based pricing recommendations. Implemented geolocation-based search, multi-step seller verification, and secure checkout flow",
         image: "/projects/ResQMart.png",
         tags: ["MERN Stack", "Geolocation", "Cloudinary", "Leaflet.js", "Jwt"],
         projectUrl: "https://res-q-mart.vercel.app/"
@@ -14,7 +24,7 @@ const projects = [
    
    
     {
-        id: 2,
+        id: 3,
         title: "SENSAI : AI-Powered Career Coach",
         description: "Developed a full-stack AI-powered career guidance platform that provides personalizedcareer recommendations, AI-generated resumes/cover letters, industry insights, and mock interview simulations.Integrated Gemini API with Next.js and Node.js to deliver real-time, data-driven guidance,secure authentication, and PDF generation for a seamless user experience",
         image: "/projects/CareerCoach.png",
@@ -23,7 +33,7 @@ const projects = [
     },
 
      {
-        id: 3,
+        id: 4,
         title: "FixMyRoad : Road Issue Reporting App",
         description: " Developed a full-stack civic issue reporting tool with real-time pothole validation and imageuploads. Integrated Cloudinary for optimized image storage and retrieval, improving load times by40%.- Authenticated users with JWT, validated reports via geolocation, and enabled real-timeadmin moderation.",
         image: "/projects/FixMyRoad.png",
@@ -32,7 +42,7 @@ const projects = [
     },
 
      {
-        id: 4,
+        id: 5,
         title: "BusyCallHandeling : Call Collision Detection App",
         description: " Developed a full-stack civic issue reporting tool with real-time pothole validation and imageuploads.- Integrated Cloudinary for optimized image storage and retrieval, improving load times by40%.- Authenticated users with JWT, validated reports via geolocation, and enabled real-timeadmin moderation.",
         image: "/projects/BusyCallCollision.png",
@@ -73,7 +83,7 @@ const ProjectSection = () => {
             <p className='text-muted-foreground text-sm mb-4 '>{project.description}</p>
             <div className='flex justify-between items-center'>
                 <div className='flex space-x-3'>
-                    <a herf={project.projectUrl}
+                    <a href={project.projectUrl}
                         target='_blank'
                      className='text-foreground/80 hover:text-primary transition-colors duration-300'>
                         {" "}
